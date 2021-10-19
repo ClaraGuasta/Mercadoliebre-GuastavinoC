@@ -1,0 +1,399 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    background-color: #EAC926;
+    padding: 10px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    width: 60%;
+    padding: 10px;
+}
+
+.buscador{
+    display: flex;
+}
+
+.buscador input{
+    width: 60%;
+}
+
+.lupa{
+    background-color: white;
+    width: 20px;
+    border: 1px solid black;
+}
+
+.align{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.precios{
+    list-style: none;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-grow: 0.30;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+ul li{
+    padding: 4px;
+}
+
+a {color: black; font-family: 'Roboto', sans-serif; text-decoration: none;}
+
+.parte1{
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.paraTablet{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MAIN */
+
+body{
+    background-color: #ebebeb;
+}
+
+form{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.perfilUsuario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulos{
+    text-align: left;
+    padding: 30px;
+}
+
+.botonesblancos:enabled{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 3%;
+    width: 80%;
+}
+
+.categoriasInteres{
+    margin: 3%;
+    padding: 2%;
+
+}
+
+.intereses{
+    margin-left: 20px;
+}
+
+.imagenPerfil{
+    padding: 40px;
+}
+
+.contenedorButton{
+    justify-content: center;
+}
+
+.centerbutton{
+    text-align: center;
+}
+button:hover{
+    background-color: #0022AA;
+}
+
+button{
+    background-color: #1259c3;
+    border: 1px solid white;
+    width: 60%;
+    color: white;
+    border-radius: 2px;
+    padding: 15px;
+    font-size: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+main form a{
+    color: white;
+}
+
+/* input::before{
+    content: "esto va antes";
+    color: red;
+}
+*/
+
+/* FOOTER */
+
+footer{
+    background-color: white;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fa-credit-card{
+    color: #1259c3;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+}
+.fa-credit-card:hover{
+    color:#e8f84c;
+}
+.fa-gift{
+    color: #1259c3;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+}
+.fa-gift:hover{
+    color: #dc5959;
+}
+.fa-user-shield{
+    color: #1259c3;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+}
+.fa-user-shield:hover{
+    color: #12c3b5;
+}
+.titulospie{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ppie{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ultimodiv{
+    margin-top: 50px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*MEDIA QUORIES*/
+@media (min-width: 320px){
+    .navbar{
+     display: none;
+   }
+   .align{
+       flex-grow: 100%;
+   }
+   .paraTablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   }
+
+   @media (min-width: 768px){
+    .paraTablet{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4px;
+    }
+    .align{
+        width: 30%
+    }
+    .logo{
+        width: 35%;
+        padding: 10px;
+    }
+    /*Footer*/
+
+    }
+
+     
+    @media (min-width: 1024px){
+        .paraTablet{
+            width: 100%;
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navbar{
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+        }
+        .buscador{
+            padding: 11px;
+        }
+        .logo{
+            padding: 40px;
+        }
+        /*footer*/
+        .titulospie{
+            font-size: 30px;
+        }
+        .ppie{
+            font-size: 30px;
+        }
+        .divFooter{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo1{
+            flex-grow: 1;
+        }
+        .logo2{
+            flex-grow: 1;
+        }
+        .logo3{
+            flex-grow: 1;
+        }
+
+    }
+
+    @media (min-width: 1600px){
+        .buscador{
+            font-size: 40px;
+            width: 25%;
+        }
+        .buscador input{
+            font-size: 20px;
+        }
+        .lupa{
+            width: 50px;
+        }
+        .align{
+            font-size: 30px;
+            width: 30%;
+        }
+        .navbar{
+            margin: 30px;
+            justify-content: space-around;
+        }
+        ul li{
+            font-size: 30px;
+        }
+        section{
+            margin-bottom: 50px;
+        }
+        /* main */
+        main{
+            background-color: white;
+        padding: 10px;
+        }
+        form{
+            margin: 70px;
+            background-color: #ebebeb;
+        }
+        .botonesblancos:enabled{
+            font-size: 30px;
+        }
+        button{
+            padding: 40px;
+            font-size: 30px;
+        }
+        .perfilUsuario{
+            font-size: 30px;
+        }
+        .intereses{
+            font-size: 30px;
+        }
+        .titulos{
+            font-size: 40px;
+        }
+        .selecArch{
+            font-size: 30px;
+        }
+        /*footer*/
+        .fa-credit-card{
+            font-size: 4em;
+        }
+        .fa-user-shield{
+            font-size: 4em;
+        }
+        .fa-gift{
+            font-size: 4em;
+        }
+        .ultimodiv{
+            font-size: 30px;
+            padding-bottom: 50px;
+        }
+        .divFooter{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo1{
+            flex-grow: 1;
+        }
+        .logo2{
+            flex-grow: 1;
+        }
+        .logo3{
+            flex-grow: 1;
+        }
+        
+    }

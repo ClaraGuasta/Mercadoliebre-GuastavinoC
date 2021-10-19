@@ -1,0 +1,477 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    width: 60%;
+    padding: 10px;
+}
+
+.buscador{
+    display: flex;
+}
+
+.buscador input{
+    width: 60%;
+}
+
+.lupa{
+    background-color: white;
+    width: 20px;
+    border: 1px solid black;
+}
+
+.align{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.parte1{
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+ul li{
+    list-style: none;
+    padding:6px;
+}
+
+a {color: black; font-family: 'Roboto', sans-serif; text-decoration: none;}
+
+header{
+    background-color: #EAC926;
+    padding: 10px;
+}
+main{
+    background-color: #ebebeb;
+}
+
+.banner{
+    width: 100%;
+}
+
+body main{
+    padding:1px;
+}
+
+body{
+width: 100%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paraTablet{
+    display: flex;
+    justify-content: space-between;
+}
+
+main article{
+    display: flex;
+    margin: 10px;
+    border: 1px solid #ebebeb;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.fa-truck{
+    border: 2px solid #39b54a;;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #39b54a;;
+    padding: 5px;
+    display: block;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -15px; 
+    width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+
+article:hover .fa-truck{
+    transform: rotate(-90deg);
+}
+
+.descripciones{
+    visibility: hidden;
+    transition: all 450ms;
+}
+
+article:hover .descripciones{ 
+    visibility: visible
+}  
+
+.tamañoDoce{
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulares{
+    font-size:24px;
+    color: #666;
+    margin:3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mismorenglón{
+    display: flex;
+    position: relative;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.precios{
+    font-size:18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-grow: 0.30;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.descripciones{
+    font-size:16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.descuentos{
+    font-size:16px;
+    color: #39b54a;;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-grow: 0.70;
+}
+
+
+.fondoBlanco{
+    background-color: white;
+}
+
+
+article{
+    width: 80%;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+}
+article:hover{
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    transition: all 400ms;
+}
+.colorazul{
+    color: white;
+    background-color: #1259c3;
+    font-size: 25px;
+    width: 11%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.images{
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+}
+.fa-credit-card{
+    color: #1259c3;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+}
+.fa-credit-card:hover{
+    color:#e8f84c;
+}
+.fa-gift{
+    color: #1259c3;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+}
+.fa-gift:hover{
+    color: #dc5959;
+}
+.fa-user-shield{
+    color: #1259c3;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    width:100%;
+}
+.fa-user-shield:hover{
+    color: #12c3b5;
+}
+.titulospie{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ppie{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ultimodiv{
+    margin-top: 50px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 320px){
+ .navbar{
+  display: none;
+}
+.descripciones{
+    display:none;
+}  
+.align{
+    flex-grow: 100%;
+}
+.paraTablet{
+    display: block;
+}
+.fa-truck{
+    width: 30px;
+    height: 30px;
+}
+}
+
+@media (min-width: 768px){
+.colorazul{
+    display:none;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.descripciones{
+    display: flex;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+}
+.align{
+    width: 30%
+}
+.paraTablet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 35%;
+    padding: 10px;
+}
+.fa-truck{
+    width: 30px;
+    height: 30px;
+}
+}
+
+@media (min-width: 1024px){
+    .section{
+        margin-bottom: 50px;
+    }
+    .articulos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 23%;
+        justify-content: space-between;
+    }
+    .paraTablet{
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+    }
+    .buscador{
+        padding: 11px;
+    }
+    .logo{
+        padding: 40px;
+    }
+    .mismorenglón{
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .fa-truck{
+        width: 30px;
+        height: 30px;
+    }
+    .descripciones{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+    }
+    /*footer*/
+    .divFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo1{
+        flex-grow: 1;
+    }
+    .logo2{
+        flex-grow: 1;
+    }
+    .logo3{
+        flex-grow: 1;
+    }
+}
+
+@media (min-width: 1600px){
+    .buscador{
+        font-size: 40px;
+        width: 25%;
+    }
+    .buscador input{
+        font-size: 20px;
+    }
+    .lupa{
+        width: 50px;
+    }
+    .align{
+        font-size: 30px;
+        width: 30%;
+    }
+    .navbar{
+        margin: 30px;
+        justify-content: space-around;
+    }
+    ul li{
+        font-size: 30px;
+    }
+    .titulares{
+        font-size: 50px;
+    }
+    section{
+        margin-bottom: 50px;
+    }
+    .mismorenglón{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .precioYdescuento{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .fa-truck{
+        font-size: 40px;
+        border: 2px solid #39b54a;
+        border-radius: 60%;
+        padding-right: 60px;
+        padding-left: 20px;
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
+    
+    .precios{
+        font-size: 40px;
+    }
+    .descuentos{
+        font-size: 30px;
+    }
+    .descripciones{
+        font-size: 30px;
+        padding: 10px;
+    }
+    /*footer*/
+    .fa-credit-card{
+        font-size: 4em;
+    }
+    .fa-user-shield{
+        font-size: 4em;
+    }
+    .fa-gift{
+        font-size: 4em;
+    }
+    .titulospie{
+        font-size: 30px;
+    }
+    .ultimodiv{
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+    .ppie{
+        font-size: 30px;
+    }
+
+    .divFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo1{
+        flex-grow: 1;
+    }
+    .logo2{
+        flex-grow: 1;
+    }
+    .logo3{
+        flex-grow: 1;
+}
+}

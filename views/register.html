@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="paraTablet">
+
+                <img class="logo" src="./img/logo-mercado-liebre.svg">
+                <div class="buscador">
+                    <input type="text" placeholder="Buscar productos, marcas...">
+
+                    <div class="lupa"><i class="fas fa-search"></i></div>
+
+                </div>
+
+                <h2 class="align"> <i class="fas fa-money-bill-wave"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+            </div>
+            <div class="navbar">
+                <div class="parte1">
+                    <ul class="precios">
+                        <li><a href="#Ofertas">Ofertas</a></li>
+                        <li><a href="#Tiendas oficiales">Tiendas Oficiales</a></li>
+                        <li><a href="#Vender">Vender</a></li>
+                        <li><a href="#Ayuda">Ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="parte2">
+                    <ul class="precios">
+                        <li><a href="/register">Crea tu cuenta</a> <i class="fas fa-user-alt"></i></li>
+                        <li><a href="#Ingresá">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+                        <li><a href="#Mis compras">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="titulos">
+                <h4>Registro</h4>
+            </div>
+            <div class="centerbutton">
+                <input class="botonesblancos" type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido"
+                    required>
+                <span class="feedback"></span>
+            </div>
+            <div class="centerbutton">
+                <input class="botonesblancos" type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+            </div>
+            <div class="centerbutton">
+                <input class="botonesblancos" type="text" name="email" id="email" placeholder="E-mail">
+            </div>
+            <div>
+                <div class="titulos">
+                    <h4>Fecha de nacimiento</h4>
+                </div>
+                <div class="centerbutton">
+                    <label>
+                        <input class="botonesblancos" type="date" name="fechaNacimiento"
+                            placeholder="Nombre y Apellido">
+                    </label>
+                </div>
+            </div>
+            <div class="centerbutton">
+                <input class="botonesblancos" type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+
+            </div>
+            <div class="titulos">
+                <h4>Perfil del Usuario</h4>
+            </div>
+            <div class="perfilUsuario">
+                <label>
+                    <input type="radio" name="perfilDeUsuario"> Comprador
+                </label>
+                <label>
+                    <input type="radio" name="perfilDeUsuario"> Vendedor
+                </label>
+            </div>
+            <div class="titulos">
+                <h4>Intereses</h4>
+            </div>
+            <div class="intereses">
+                <div>
+                    <label>
+                        <input class="categoriasInteres" type="checkbox" name="categoriasDeInteres" value="electro">
+                        Electro
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input class="categoriasInteres" type="checkbox" name="categoriasDeInteres" value="moda"> Moda
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input class="categoriasInteres" type="checkbox" name="categoriasDeInteres" value="hogar"> Hogar
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input class="categoriasInteres" type="checkbox" name="categoriasDeInteres" value="juguetería">
+                        Juguetería
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input class="categoriasInteres" type="checkbox" name="categoriasDeInteres" value="vidasana">
+                        Vida sana
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div class="titulos">
+                    <h4>Seleccione una foto de Usuario</h4>
+                </div>
+                <label class="imagenPerfil">
+                    <input class="selecArch" type="file" name="imagenPerfil" accept=".jpg, .png">
+                </label>
+            </div>
+            <div class="titulos">
+                <h4>Seleccione su contraseña</h4>
+            </div>
+            <div class="centerbutton">
+                <input class="botonesblancos" type="password" name="contraseña" id="contraseña"
+                    placeholder="Elegí tu contraseña">
+            </div>
+            <div class="centerbutton">
+                <input class="botonesblancos" type="password" name="confirmarContraseña" id="confirmarContraseña"
+                    placeholder="Confirmá tu contraseña">
+            </div>
+            <div class="contenedorButton">
+                <div class="centerbutton">
+                    <button type="submit">
+                        <a href="./">Enviar</a>
+                    </button>
+                </div>
+                <div class="centerbutton">
+                    <button type="delete">Borrar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="divFooter">
+            <section>
+                <div class="logo1">
+                    <i class="fas fa-credit-card"></i>
+                    <h4 class="titulospie">Pagá con tarjeta o en efectivo</h4>
+                    <p class="ppie">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de
+                        pago. ¡Y
+                        siempre es seguro!</p>
+
+                </div>
+            </section>
+            <section>
+                <div class="logo2">
+                    <i class="fas fa-gift"></i>
+                    <h4 class="titulospie">Envío gratis desde $ 2.500</h4>
+                    <p class="ppie">Solo por estar registradx en MercadoLiebre tenés envíos gratis en miles de
+                        productos. Es un
+                        beneficio de MercadoPuntos.</p>
+                </div>
+            </section>
+            <section>
+                <div class="logo3">
+                    <i class="fas fa-user-shield"></i>
+                    <h4 class="titulospie">Seguridad de principio a fin</h4>
+                    <p class="ppie">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque
+                        estás siempre
+                        protegidx.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div>
+            <p class="ultimodiv">Copyright © 1999-2020 MercadoLiebre S.R.L</p>
+        </div>
+    </footer>
+</body>
+
+</html>
