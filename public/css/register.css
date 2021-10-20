@@ -26,16 +26,19 @@ header{
 
 .buscador{
     display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80%;
+    background-color: white;
 }
 
 .buscador input{
-    width: 60%;
+    width: 90%;
+    border: 1px solid white;
 }
 
 .lupa{
-    background-color: white;
     width: 20px;
-    border: 1px solid black;
 }
 
 .align{
@@ -225,6 +228,11 @@ section{
 
 /*MEDIA QUORIES*/
 @media (min-width: 320px){
+    .paraCelu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .navbar{
      display: none;
    }
@@ -271,6 +279,9 @@ section{
 
      
     @media (min-width: 1024px){
+        .buscador{
+            width: 30%;
+        }
         .paraTablet{
             width: 100%;
             padding: 2%;
@@ -288,7 +299,8 @@ section{
             padding: 11px;
         }
         .logo{
-            padding: 40px;
+            padding: 20px;
+    width: 50%;
         }
         /*footer*/
         .titulospie{
@@ -315,6 +327,9 @@ section{
     }
 
     @media (min-width: 1600px){
+        .paraCelu{
+            width: 60%;
+        }
         .buscador{
             font-size: 40px;
             width: 25%;
